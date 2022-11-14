@@ -7,7 +7,7 @@ import { smsbox } from './smsbox.js'
 
 const aboutСompany = { template: '<h2>О компании</h2>' }
 const approachToWork = { template: '<h2>Подход к работе</h2>' }
-const сlients = { template: '<div>
+const сlients = { template: `<div>
 <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>
@@ -28,7 +28,7 @@ const сlients = { template: '<div>
     <button type="submit">Send</button>
   </p>
 </form>
-                 </div>' }
+                 </div>` }
 const routes = [
   { path: '/', component: indexPage },
   { path: '/aboutcompany', component: aboutСompany },
