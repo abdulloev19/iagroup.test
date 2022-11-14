@@ -9,7 +9,7 @@ const aboutСompany = { template: '<h2>О компании</h2>' }
 const approachToWork = { template: '<h2>Подход к работе</h2>' }
 const сlients = { template: '<h2>Клиенты</h2>' }
 const routes = [
-  { path: '/iagroup.test', component: indexPage },
+  { path: '/', component: indexPage },
   { path: '/aboutcompany', component: aboutСompany },
   { path: '/сlients', component: сlients },
   { path: '/services', component: services },
